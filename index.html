@@ -12,15 +12,13 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
         crossorigin="anonymous">
     <link href="css/styles.css" type="text/css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <script src="js/form.js"></script>
     <link rel="icon" href="img/cropped-favicon.png">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
 </head>
 
 <body>
@@ -96,7 +94,18 @@
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                     <div class="about-resume">
                         <div class="skills">
-                            <h2>My Skills</h2>
+                            <div class="education">
+                                <h3>My Education</h3>
+                                <div class="eduction-block">
+                                    <h4>Moringa School</h4>
+                                    <p>Coding</p>
+                                </div>
+                                <div class="eduction-block">
+                                    <h4>Nairobi Technical</h4>
+                                    <p>Bachelor of Engineering</p>
+                                </div>
+                            </div>
+                            <h3>My Skills</h3>
                             <div class="skill-progress-container">
                                 <p>Python</p>
                                 <div class="skill-bar">
@@ -135,14 +144,6 @@
 
 
                         </div>
-
-                        <div class="education">
-                            <h2>My Education</h2>
-                            <div class="eduction-block">
-                                <h4>Nairobi Technical</h4>
-                                <p>Bachelor of Engineering</p>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -151,10 +152,10 @@
 
     <!--------------------------------------SKILLS SECTION-------------------------------------->
 
-    <section id="services">
+    <section id="services" style="text-align:center">
         <div class="container">
             <div class="section-title">
-                <h1>My <span class="accent-text">Skills</span></h1>
+                <p style="color:white;">My <span class="accent-text">Skills</span></p>
             </div>
 
             <div class="row center-xs center-sm center-md center-lg trigger">
@@ -219,64 +220,75 @@
 
     <!--------------------------------------PROJECTS SECTION-------------------------------------->
 
-    <section id="portfolio">
+    <div class="container-fluid" id="portfolio">
+        <div class="section-title">
+            <h1>My <span class="accent-text">Projects</span></h1>
+        </div>
         <div class="container">
-            <div class="section-title">
-                <h1>My <span class="accent-text">Projects</span></h1>
-            </div>
-
-            <div class="img-grid">
-                <div class="img-container graph" data-category="graph">
-                    <a href=""><img src="img/picture 2.png"></a>
-                    <div class="img-overlay">
-                        <div class="img-overlay-text">
-                            <h3>HighTow</h3>
-                            <div style="padding-top:10px;">
-                                <a class="block" target="blank" href="https://hightow.herokuapp.com/">view</a>
+            <div class="row" style="text-align: center;">
+                <div class="img-container graph">
+                    <div class="card">
+                        <div class="image">
+                            <img src="img/picture 2.png" />
+                        </div>
+                        <div class="details">
+                            <div class="center">
+                                <h1>Hightow</span></h1>
+                                <p>Lorem ipsum is simple dummy text on the printing and typesetting industry.</p>
+                                <a class="block" target="blank" href="https://hoodwatchs.herokuapp.com/">view</a>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="img-container graph" data-category="graph">
-                    <a href=""><img src="img/picture3.png"></a>
-                    <div class="img-overlay">
-                        <div class="img-overlay-text">
-                            <h3>Instapics</h3>
-                            <div style="padding-top:10px;">
+                <div class="img-container graph">
+                    <div class="card">
+                        <div class="image">
+                            <img src="img/picture3.png" />
+                        </div>
+                        <div class="details">
+                            <div class="center">
+                                <h1>Instapics</h1>
+                                <p>Lorem ipsum is simple dummy text on the printing and typesetting industry.</p>
                                 <a class="block" target="blank" href="https://instapics2018.herokuapp.com/">view</a>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="img-container graph" data-category="graph">
-                    <a href=""><img src="img/picture4.png"></a>
-                    <div class="img-overlay">
-                        <div class="img-overlay-text">
-                            <h3>Hoodwatch</h3>
-                            <div style="padding-top:10px;">
-                                <a class="block" target="blank" href="https://hoodwatchs.herokuapp.com/">view</a>
+
+                <div class="img-container graph">
+                    <div class="card">
+                        <div class="image">
+                            <img src="img/picture5.png" />
+                        </div>
+                        <div class="details">
+                            <div class="center">
+                                <h1>Awwards</h1>
+                                <p>Lorem ipsum is simple dummy text on the printing and typesetting industry.</p>
+                                <a class="block" target="blank" href="https://awwardsone.herokuapp.com/">view</a>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="img-container graph" data-category="graph">
-                    <a href=""><img src="img/picture5.png"></a>
-                    <div class="img-overlay">
-                        <div class="img-overlay-text">
-                            <h3>Awwards</h3>
-                            <div style="padding-top:10px;">
+                <div class="img-container graph">
+                    <div class="card">
+                        <div class="image">
+                            <img src="img/picture4.png" />
+                        </div>
+                        <div class="details">
+                            <div class="center">
+                                <h1>NeihbourWatch</h1>
+                                <p>Lorem ipsum is simple dummy text on the printing and typesetting industry.</p>
                                 <a class="block" target="blank" href="https://awwardsone.herokuapp.com/">view</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
-    </section>
+    </div>
+
 
     <!--------------------------------------CONTACT SECTION-------------------------------------->
 
@@ -323,8 +335,10 @@
                     <ul class="about-social">
                         <!--Social icons for the about section-->
                         <li><a target="blank" href="https://github.com/KevinJared"><i class="fab fa-github" style="color:black;"></i></a></li>
-                        <li><a target="blank" href="https://twitter.com/kevjared?lang=en"><i class="fab fa-twitter" style="color:blue;"></i></a></li>
-                        <li><a target="blank" href="https://www.linkedin.com/in/kevin-jared-44076a123/"><i class="fab fa-linkedin-in" style="color:rgb(56, 56, 151);"></i></a></li>
+                        <li><a target="blank" href="https://twitter.com/kevjared?lang=en"><i class="fab fa-twitter"
+                                    style="color:blue;"></i></a></li>
+                        <li><a target="blank" href="https://www.linkedin.com/in/kevin-jared-44076a123/"><i class="fab fa-linkedin-in"
+                                    style="color:rgb(56, 56, 151);"></i></a></li>
                         <li><a target="blank" href="http://www.google.com"><i class="fab fa-facebook-f" style="color:rgb(3, 3, 146);"></i></a></li>
                         <li><a target="blank" href="http://www.google.com"><i class="fab fa-google-plus-g" style="color:red;"></i></a></li>
                     </ul>
@@ -344,8 +358,6 @@
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
     <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="js/particles.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.magnific-popup.js"></script>
     <script src="js/scrollmagic/minified/ScrollMagic.min.js"></script>
     <script src="js/scrollmagic/uncompressed/plugins/debug.addIndicators.js"></script>
     <script src="js/main.js"></script>
